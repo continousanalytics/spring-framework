@@ -1284,7 +1284,7 @@ configure(rootProject) {
 	// }
 
 	// don't publish the default jar for the root project
-	configurations.archives.artifacts.clear()
+	//configurations.archives.artifacts.clear()
 
 	dependencies {  // for integration tests
 		testCompile(project(":spring-aop"))
